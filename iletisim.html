@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>İletişim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Ana Sayfa</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="rezervasyon.html">Rezervasyon</a></li>
+                <li><a href="subeler.html">Şubeler</a></li>
+                <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Bize Ulaşın</h2>
+        <form id="contactForm">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+
+        <p id="contactConfirmation" class="hidden">Mesajınız başarıyla gönderildi!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lezzet Durağı - Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

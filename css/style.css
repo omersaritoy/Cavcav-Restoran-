@@ -1,0 +1,274 @@
+.about, .branches, .contact {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.branch {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.reservation-list {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.reservation-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+
+.hero {
+    background: url('../images/restaurant.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+.reservation-form {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.reservation-form h2 {
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #e64a19;
+}
+
+.hidden {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 22px;
+    color: #ff6600;
+    margin: 10px 0;
+}
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Genel Sayfa Ayarları */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Sayfa Arkaplanı ve Genel Stil */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Başlık (Header) */
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Restoran Adı */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navigasyon Menüsü */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Ana İçerik */
+main {
+    padding: 50px 20px;
+}
+
+/* Hoş Geldiniz Bölümü */
+main h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer (Alt Bilgi) */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 14px;
+}

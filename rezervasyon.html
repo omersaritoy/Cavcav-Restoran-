@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rezervasyon Yap</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header>
+        <h1>Rezervasyon Yap</h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Ana Sayfa</a></li>
+                <li><a href="menu.html">Menü</a></li>
+                <li><a href="rezervasyon.html">Rezervasyon</a></li>
+                <li><a href="subeler.html">Şubeler</a></li>
+                <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reservation-form">
+        <h2>Restoranımıza Rezervasyon Yapın</h2>
+        <form id="reservationForm">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="date">Tarih:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Saat:</label>
+            <input type="time" id="time" required>
+
+            <label for="guests">Kişi Sayısı:</label>
+            <input type="number" id="guests" min="1" required>
+
+            <button type="submit">Rezervasyon Yap</button>
+        </form>
+
+        <p id="confirmationMessage" class="hidden">Rezervasyonunuz alınmıştır!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lezzet Durağı - Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <section class="reservation-list">
+        <h2>Mevcut Rezervasyonlar</h2>
+        <div id="reservationsList"></div>
+    </section>
+    
+    <script src="js/rezervasyon.js"></script>
+
+</body>
+</html>
